@@ -15,7 +15,9 @@ def exchange_money(budget, exchange_rate):
     :return: float - exchanged value of the foreign currency you can receive.
     """
 
-    pass
+    budget = 1000
+    exchange_rate = 100
+    exchanged_value = budget/exchange_rate
 
 
 def get_change(budget, exchanging_value):
